@@ -11,12 +11,14 @@ import common_en from "./translations/en/common.json";
 import common_es from "./translations/es/common.json";
 import common_fr from "./translations/fr/common.json";
 import common_pt from "./translations/pt/common.json";
+import common_ja from "./translations/ja/common.json";
 
 const languageFiles = {
   "en":common_en,
   "es":common_es,
   "fr":common_fr,
-  "pt":common_pt
+  "pt":common_pt,
+  "ja":common_ja
 }
 
 function getLiferayLanguageChoice() {

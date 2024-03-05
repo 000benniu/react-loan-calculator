@@ -3,7 +3,7 @@
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/weskempa-liferay/react-loan-calculator)
 
-Example of a multi-step react component that leverages getting and posting Liferay Object data. This component also contains translated content for French, Portuguese, Spanish, and English based on the user's Liferay language settings.
+Example of a multi-step react component that leverages getting and posting Liferay Object data. This component also contains translated content for French, Portuguese, Spanish, Japanese and English based on the user's Liferay language settings.
 
 ![Component Outcomes 1](./screenshots/img-1.png)
 
@@ -20,7 +20,8 @@ This resource can be used as a 7.4 Remote App (Custom Element) or a Client Exten
 
     * Label: "Rate"
     * Pural Label: "Rates"
-    * Object Name: "rates"
+    * Object Name: "Rate"
+    * Scope: Company
     * Note: This object represents the list of rates that the user can choose from.
 
 2. Object Needs the Fields
@@ -47,6 +48,7 @@ This resource can be used as a 7.4 Remote App (Custom Element) or a Client Exten
     * Label: "Loan Request"
     * Pural Label: "Loan Requests"
     * Object Name: "LoanRequest"
+    * Scope: Company
     * Note: This object represents the incoming loan requests that are sent from this component.
 
 7. Object Needs the Fields
